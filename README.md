@@ -9,7 +9,7 @@
 
 **An intelligent pregnancy wellness assistant combining voice/text emotion analysis with comprehensive maternal health tracking**
 
-[🚀 Live Demo](#) • [📖 Documentation](#) • [🐛 Report Bug](https://github.com/yourusername/pregnancy-wellness/issues) • [💡 Request Feature](https://github.com/yourusername/pregnancy-wellness/issues)
+[🚀 Live Demo](#) • [📖 Documentation](#) • [🐛 Report Bug](https://github.com/Adeel78688/pregnancy-wellness-Assistant/issues) • [💡 Request Feature](https://github.com/Adeel78688/pregnancy-wellness_Assistant/issues)
 
 </div>
 
@@ -79,8 +79,8 @@ graph TB
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/pregnancy-wellness.git
-cd pregnancy-wellness
+git clone https://github.com/Adeel78688/pregnancy-wellness-Assistant.git
+cd pregnancy-wellness-Assistant
 ```
 
 2. **Create virtual environment**
@@ -110,7 +110,7 @@ Navigate to `http://localhost:8501`
 ## 📁 Project Structure
 
 ```
-pregnancy-wellness/
+pregnancy-wellness-Assistant/
 ├── 📁 pregnancy_models/          # Pre-trained AI models
 │   ├── best_emotion_cnn.pth     # Voice emotion detection model
 │   ├── best_text_emotion_model_final.keras  # Text emotion model
@@ -119,7 +119,7 @@ pregnancy-wellness/
 │   └── pregnancy_scaler.pkl     # Audio feature scaler
 ├── 📄 app.py                    # Main application file
 ├── 📄 requirements.txt          # Python dependencies
-├── 📄 pregnancy_wellness.db     # SQLite database (auto-generated)
+├── 📄 pregnancy_wellness-Assistant.db     # SQLite database (auto-generated)
 ├── 📄 .gitignore               # Git ignore file
 └── 📄 README.md                # This file
 ```
@@ -345,10 +345,10 @@ flake8 app.py
 ### Database Migration
 ```bash
 # Backup database
-cp pregnancy_wellness.db pregnancy_wellness_backup.db
+cp pregnancy_wellness_Assistant.db pregnancy_wellness_Assistant_backup.db
 
 # Reset database (development only)
-rm pregnancy_wellness.db
+rm pregnancy_wellness_Assistant.db
 python -c "import app; print('Database recreated')"
 ```
 
@@ -402,9 +402,9 @@ The developers and contributors are not liable for any decisions made based on t
 Having issues? Here's how to get help:
 
 - **Documentation**: Check the [wiki](#) for detailed guides
-- **Issues**: [GitHub Issues](https://github.com/yourusername/pregnancy-wellness/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/pregnancy-wellness/discussions)
-- **Email**: support@pregnancy-wellness.example.com
+- **Issues**: [GitHub Issues](https://github.com/Adeel78688/pregnancy-wellness-Assistant/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/Adeel78688/pregnancy-wellness-Assistant/discussions)
+- **Email**: adeelchoudhary78688@gmail.com
 
 ---
 
@@ -414,6 +414,6 @@ Having issues? Here's how to get help:
 
 **⭐ If this project helps you, please give it a star! ⭐**
 
-[![Star History Chart](https://api.star-history.com/svg?repos=yourusername/pregnancy-wellness&type=Date)](https://star-history.com/#yourusername/pregnancy-wellness&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=Adeel78688/pregnancy-wellness-assistant&type=Date)](https://star-history.com/#Adeel78688/pregnancy-wellness-assistant&Date)
 
 </div>
